@@ -4,16 +4,12 @@
 
 > Portfolio made by Ntare Guy
 
-![screenshot](./image/app_screenshot.png)
+![screenshot](./image/mobile.png)
 
 ## Built With
 
 - HTML & CSS & JAVASCRIPT
 - GIT, GITHUB, LINTERS, NPM, LITHOUSE, WEBHINT, STYLELINT
-
-## Live Demo
-
-[Demo]()
 
 ## Author
 
