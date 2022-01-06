@@ -60,11 +60,21 @@ body {
   }
 
   .social-media {
-    display: flex;
-    color: #505f79;
     padding: 40px;
     margin-top: 28px;
+  }
+
+  .social-media ul {
+    display: flex;
     justify-content: space-evenly;
+  }
+
+  .social-media ul li {
+    list-style: none;
+  }
+
+  .social-media ul li a {
+    color: #505f79;
   }
 
   .down-button {
