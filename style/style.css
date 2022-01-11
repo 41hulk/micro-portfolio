@@ -192,7 +192,8 @@ body {
     flex-direction: column;
     margin-bottom: 40px;
     margin-top: 40px;
-    background: url("/image/mei.png") bottom left no-repeat,
+    background:
+      url("/image/mei.png") bottom left no-repeat,
       url("/image/duck.png") top right no-repeat;
   }
 
@@ -280,25 +281,28 @@ body {
     display: flex;
     flex-direction: column;
   }
+
   .contact-form input {
-    margin: 10px 0px;
+    margin: 10px 0;
     padding: 15px 16px;
     border: 1px solid #d0d9d4;
     box-sizing: border-box;
     border-radius: 4px;
   }
+
   .contact-form textarea {
     font-family: "Inter", sans-serif;
     height: 85px;
     padding: 12px 10px;
-    margin: 10px 0px;
+    margin: 10px 0;
     margin-bottom: 24px;
     border: 1px solid #60c095;
   }
 
   .contact-form button {
     font-family: "Inter", sans-serif;
-    background-color: #36B37F;
+    background: #36b37f;
+    border: #36b37f;
     width: 130px;
     color: white;
     font-size: 17px;
@@ -307,5 +311,4 @@ body {
     align-self: center;
     border-radius: 4px;
   }
-  
 }

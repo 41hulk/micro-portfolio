@@ -147,11 +147,11 @@
 <!-- Section 4 Contact me -->
 <section class="main4">
     <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
-    <form class="contact-form" action="#" method="post">
-        <input type="text" name="name" placeholder="Full name" required>
-        <input type="email" name="email" placeholder="Email address" required>
-        <textarea name="comments" placeholder="Enter text here"></textarea>
-        <button type="button">Get in touch</button>
+    <form class="contact-form" action="https://formspree.io/f/mdobandd" method="POST">
+        <input type="text" name="name" maxlength="30" placeholder="Full name" required>
+        <input type="email" name="_replyto" placeholder="Email address" required>
+        <textarea name="comments" maxlength="500" placeholder="Enter text here" required></textarea>
+        <button type="submit">Get in touch</button>
     </form>
 </section>
 
