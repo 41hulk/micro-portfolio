@@ -192,8 +192,7 @@ body {
     flex-direction: column;
     margin-bottom: 40px;
     margin-top: 40px;
-    background:
-      url("/image/mei.png") bottom left no-repeat,
+    background: url("/image/mei.png") bottom left no-repeat,
       url("/image/duck.png") top right no-repeat;
   }
 
@@ -262,4 +261,35 @@ body {
     margin-right: 15px;
     margin-bottom: 40px;
   }
+
+  .main4 {
+    border: red dotted 4px;
+    margin: 24px;
+  }
+
+  .main4 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #172b4d;
+    text-align: center;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form input {
+    margin: 10px 0px;
+    padding: 15px 16px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .contact-form textarea {
+    padding: 12px 10px;
+    margin: 10px 0px;
+    border: 1px solid #60c095;
+  }
+  
 }
