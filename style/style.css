@@ -405,4 +405,23 @@ body {
     grid-column-gap: 10px;
     justify-content: center;
   }
+  .main3 {
+    background: url("/image/boat-desktop.png") bottom left no-repeat,
+      url("/image/duck-desk.png") top right no-repeat;
+  }
+  .main3 p {
+    margin: 24px 12.3em;
+  }
+  .card-info {
+    display: grid;
+    margin: 50px 200px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-row-gap: 24px;
+    grid-column-gap: 10px;
+    justify-content: center;
+  }
+  .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
