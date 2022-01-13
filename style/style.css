@@ -140,6 +140,7 @@ body {
 }
 
 .project-container {
+  margin-bottom: 24px;
   margin-left: 24px;
   margin-right: 24px;
   background: #ebf0ee;
@@ -313,6 +314,10 @@ body {
   align-self: center;
   border-radius: 4px;
 }
+.sc-desktop {
+  display: none;
+}
+
 @media only screen and (min-width: 992px) {
   .desktop-intro {
     background-image: url("/image/header-bg-desktop.png");
@@ -389,5 +394,15 @@ body {
   }
   .down-button {
     margin-bottom: 25em;
+  }
+  .main2 {
+    margin: 0px 100px;
+  }
+  .projects-desktop {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-row-gap: 24px;
+    grid-column-gap: 10px;
+    justify-content: center;
   }
 }
