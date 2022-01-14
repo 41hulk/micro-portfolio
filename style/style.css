@@ -197,8 +197,7 @@ body {
   flex-direction: column;
   margin-bottom: 40px;
   margin-top: 40px;
-  background:
-    url("/image/mei.png") bottom left no-repeat,
+  background: url("/image/mei.png") bottom left no-repeat,
     url("/image/duck.png") top right no-repeat;
 }
 
@@ -323,7 +322,7 @@ body {
 
 @media only screen and (min-width: 992px) {
   .desktop-intro {
-    background-image: url("/image/header-bg-desktop.png");
+    background-image: url("../image/header-bg-desktop.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -422,8 +421,7 @@ body {
   }
 
   .main3 {
-    background:
-      url("/image/boat-desktop.png") bottom left no-repeat,
+    background: url("/image/boat-desktop.png") bottom left no-repeat,
       url("/image/duck-desk.png") top right no-repeat;
   }
 
@@ -477,7 +475,7 @@ body {
 
   .bg-image-1 {
     position: absolute;
-    background-image: url("/image/bg-image-1.png");
+    background-image: url("../image/bg-image-1.png");
     height: 261.09px;
     width: 236px;
     background-repeat: no-repeat;
@@ -489,7 +487,7 @@ body {
 
   .bg-image-2 {
     position: absolute;
-    background-image: url("/image/bg-image-2.png");
+    background-image: url("../image/bg-image-2.png");
     background-repeat: no-repeat;
     width: 130.28px;
     height: 105.85px;
@@ -499,7 +497,7 @@ body {
 
   .bg-image-3 {
     position: absolute;
-    background-image: url("/image/bg-image-3.png");
+    background-image: url("../image/bg-image-3.png");
     background-repeat: no-repeat;
     width: 316.16px;
     height: 450.96px;
