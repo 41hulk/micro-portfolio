@@ -420,8 +420,77 @@ body {
     grid-column-gap: 10px;
     justify-content: center;
   }
-  .card {
-    margin-left: 0;
-    margin-right: 0;
+  .main4-contact {
+    position: relative;
+  }
+  .main4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 211px;
+  }
+  .main4 h1 {
+    flex: 1 0.3em;
+    margin-right: 1em;
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 52px;
+  }
+  .main4 form {
+    flex-grow: 1.5;
+    flex-shrink: 1;
+    flex-basis: 0.7em;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .main4 form button {
+    align-self: flex-start;
+  }
+
+  .bg-image {
+    display: flex;
+  }
+  .bg-image-1 {
+    position: absolute;
+    background-image: url("/image/bg-image-1.png");
+    height: 261.09px;
+    width: 236px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    bottom: 0;
+    top: 18em;
+  }
+  .bg-image-2 {
+    position: absolute;
+    background-image: url("/image/bg-image-2.png");
+    background-repeat: no-repeat;
+    width: 130.28px;
+    height: 105.85px;
+    background-size: contain;
+    left: 15em;
+  }
+  .bg-image-3 {
+    position: absolute;
+    background-image: url("/image/bg-image-3.png");
+    background-repeat: no-repeat;
+    width: 316.16px;
+    height: 450.96px;
+    background-size: contain;
+    right: -7em;
+    top: 9em;
+    bottom: 0;
+  }
+  .line {
+    display: block;
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background: #dfe1e6;
+    bottom: 6em;
+  }
+  #footer-icon {
+    margin-top: 25em;
+    margin-bottom: 2em;
   }
 }
