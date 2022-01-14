@@ -15,6 +15,7 @@ body {
   margin-right: 20px;
   margin-top: 13px;
 }
+
 .h-desktop {
   display: none;
 }
@@ -196,7 +197,8 @@ body {
   flex-direction: column;
   margin-bottom: 40px;
   margin-top: 40px;
-  background: url("/image/mei.png") bottom left no-repeat,
+  background:
+    url("/image/mei.png") bottom left no-repeat,
     url("/image/duck.png") top right no-repeat;
 }
 
@@ -314,6 +316,7 @@ body {
   align-self: center;
   border-radius: 4px;
 }
+
 .sc-desktop {
   display: none;
 }
@@ -324,6 +327,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
   }
+
   .header,
   .social-media {
     display: none;
@@ -332,20 +336,24 @@ body {
   .main1 {
     background-image: none;
   }
+
   .h-desktop {
     display: flex;
     justify-content: center;
     padding: 16px;
   }
+
   .nav-element {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
+
   .nav-element li {
     list-style: none;
-    margin: 0px 24px;
+    margin: 0 24px;
   }
+
   .nav-element a {
     font-style: normal;
     font-weight: 600;
@@ -353,6 +361,7 @@ body {
     text-decoration: none;
     color: #344563;
   }
+
   .intro {
     padding: 110px;
   }
@@ -360,17 +369,17 @@ body {
   .intro h1 {
     font-weight: 800;
     color: #172b4d;
-    font-weight: 800;
     font-size: 48px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.37px;
-    padding: 0px 90px;
+    padding: 0 90px;
   }
 
   .intro .prof {
     color: #36b37e;
   }
+
   .intro p {
     font-style: normal;
     font-weight: normal;
@@ -379,25 +388,31 @@ body {
     text-align: center;
     color: #172b4d;
     margin: 24px 188px;
-    padding: 20px 0px;
+    padding: 20px 0;
   }
+
   .sc-desktop {
     display: flex;
     justify-content: space-evenly;
-    padding: 0px 400px;
+    padding: 0 400px;
   }
+
   .sc-desktop li {
     list-style: none;
   }
+
   .sc-desktop li a {
     color: #505f79;
   }
+
   .down-button {
     margin-bottom: 25em;
   }
+
   .main2 {
-    margin: 0px 100px;
+    margin: 0 100px;
   }
+
   .projects-desktop {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
@@ -405,13 +420,17 @@ body {
     grid-column-gap: 10px;
     justify-content: center;
   }
+
   .main3 {
-    background: url("/image/boat-desktop.png") bottom left no-repeat,
+    background:
+      url("/image/boat-desktop.png") bottom left no-repeat,
       url("/image/duck-desk.png") top right no-repeat;
   }
+
   .main3 p {
     margin: 24px 12.3em;
   }
+
   .card-info {
     display: grid;
     margin: 50px 200px;
@@ -420,15 +439,18 @@ body {
     grid-column-gap: 10px;
     justify-content: center;
   }
+
   .main4-contact {
     position: relative;
   }
+
   .main4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 211px;
+    margin: 0 211px;
   }
+
   .main4 h1 {
     flex: 1 0.3em;
     margin-right: 1em;
@@ -436,6 +458,7 @@ body {
     font-size: 1.6em;
     line-height: 52px;
   }
+
   .main4 form {
     flex-grow: 1.5;
     flex-shrink: 1;
@@ -443,6 +466,7 @@ body {
     display: flex;
     justify-content: flex-start;
   }
+
   .main4 form button {
     align-self: flex-start;
   }
@@ -450,6 +474,7 @@ body {
   .bg-image {
     display: flex;
   }
+
   .bg-image-1 {
     position: absolute;
     background-image: url("/image/bg-image-1.png");
@@ -461,6 +486,7 @@ body {
     bottom: 0;
     top: 18em;
   }
+
   .bg-image-2 {
     position: absolute;
     background-image: url("/image/bg-image-2.png");
@@ -470,6 +496,7 @@ body {
     background-size: contain;
     left: 15em;
   }
+
   .bg-image-3 {
     position: absolute;
     background-image: url("/image/bg-image-3.png");
@@ -481,6 +508,7 @@ body {
     top: 9em;
     bottom: 0;
   }
+
   .line {
     display: block;
     position: relative;
@@ -489,6 +517,7 @@ body {
     background: #dfe1e6;
     bottom: 6em;
   }
+
   #footer-icon {
     margin-top: 25em;
     margin-bottom: 2em;
