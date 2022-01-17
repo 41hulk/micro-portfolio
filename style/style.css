@@ -201,7 +201,7 @@ body {
     url("/image/duck.png") top right no-repeat;
 }
 
-.main3 h1 {
+.main3 h2 {
   text-align: center;
   font-style: normal;
   font-weight: bold;
@@ -251,7 +251,7 @@ body {
   padding: 20px;
 }
 
-.card h1 {
+.card h2 {
   font-weight: 600;
   font-size: 24px;
   color: #344563;
