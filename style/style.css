@@ -180,7 +180,7 @@ body {
 .desc button {
   padding: 12px;
   margin: 20px;
-  color: white;
+  color: #17191c;
   font-weight: 500;
   font-size: 17px;
   text-align: center;
@@ -202,7 +202,7 @@ body {
     url("/image/duck.png") top right no-repeat;
 }
 
-.main3 h1 {
+.main3 h2 {
   text-align: center;
   font-style: normal;
   font-weight: bold;
@@ -222,7 +222,7 @@ body {
 .main3 button {
   padding: 12px;
   margin: 20px;
-  color: white;
+  color: #17191c;
   font-weight: 500;
   font-size: 17px;
   text-align: center;
@@ -252,7 +252,7 @@ body {
   padding: 20px;
 }
 
-.card h1 {
+.card h2 {
   font-weight: 600;
   font-size: 24px;
   color: #344563;
@@ -309,7 +309,7 @@ body {
   background: #36b37f;
   border: #36b37f;
   width: 130px;
-  color: white;
+  color: #17191c;
   font-size: 17px;
   font-weight: 500;
   padding: 12px;
