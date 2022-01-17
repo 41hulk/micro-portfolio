@@ -4,6 +4,7 @@
 
 > Portfolio made by Ntare Guy
 
+
 ## Visit the page [here](https://41hulk.github.io/micro-portfolio/)
 
 ![screenshot](./image/mobile.png)
