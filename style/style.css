@@ -38,12 +38,36 @@ body {
 }
 
 .menu-visible .nav-element {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 92px 12px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #fff;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   min-height: 479px;
+}
+
+.desc li {
+  list-style: none;
+  padding: 5px 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  color: #3a4a42;
+  margin: 4px;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+}
+
+.card li {
+  list-style: none;
+  padding: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  color: #36b37e;
+  margin: 4px;
+  background-color: white;
+  border-radius: 4px;
 }
 
 .menu-visible ul li {
@@ -105,30 +129,6 @@ body {
 .social-media ul {
   display: flex;
   justify-content: space-evenly;
-}
-
-.desc li {
-  list-style: none;
-  padding: 5px 15px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 11px;
-  color: #3a4a42;
-  margin: 4px;
-  background-color: #ebf0ee;
-  border-radius: 4px;
-}
-
-.card li {
-  list-style: none;
-  padding: 12px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 11px;
-  color: #36b37e;
-  margin: 4px;
-  background-color: white;
-  border-radius: 4px;
 }
 
 .social-media ul li {
@@ -232,7 +232,8 @@ body {
   flex-direction: column;
   margin-bottom: 40px;
   margin-top: 40px;
-  background: url("/image/mei.png") bottom left no-repeat,
+  background:
+    url("/image/mei.png") bottom left no-repeat,
     url("/image/duck.png") top right no-repeat;
 }
 
@@ -361,9 +362,11 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
   }
+
   #close-btn {
     display: none;
   }
+
   .header,
   .social-media {
     display: none;
@@ -397,6 +400,7 @@ body {
     text-decoration: none;
     color: #344563;
   }
+
   .header {
     display: none;
   }
@@ -461,7 +465,8 @@ body {
   }
 
   .main3 {
-    background: url("/image/boat-desktop.png") bottom left no-repeat,
+    background:
+      url("/image/boat-desktop.png") bottom left no-repeat,
       url("/image/duck-desk.png") top right no-repeat;
   }
 
