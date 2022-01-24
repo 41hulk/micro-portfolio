@@ -19,13 +19,39 @@ body {
 .h-desktop {
   display: none;
 }
-.nav-bar {
+
+.menu-visible {
+  display: block;
   position: absolute;
-  background-color: brown;
-  height: 30em;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
+  background-color: #e5e5e5;
+}
+
+#close-btn {
+  color: #67798e;
+  position: absolute;
+  right: 38px;
+  top: 30px;
+}
+
+.menu-visible .nav-element {
+  background-color: #ffffff;
+  padding: 92px 12px;
+  border-bottom: 1px solid #ffffff;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  min-height: 479px;
+}
+
+.menu-visible ul li{
+  margin-bottom: 40px;
+}
+
+.menu-visible ul li a {
+  text-decoration: none;
 }
 
 .header h1 {
@@ -171,6 +197,7 @@ body {
   border-radius: 8px;
 }
 
+.menu-visible ul li a,
 .desc h3 {
   padding: 15px;
   color: #3a4a42;
