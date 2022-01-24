@@ -22,7 +22,7 @@ body {
 
 .menu-visible {
   display: block;
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
   left: 0;
@@ -46,7 +46,7 @@ body {
   min-height: 479px;
 }
 
-.menu-visible ul li{
+.menu-visible ul li {
   margin-bottom: 40px;
 }
 
@@ -361,7 +361,9 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
   }
-
+  #close-btn {
+    display: none;
+  }
   .header,
   .social-media {
     display: none;
