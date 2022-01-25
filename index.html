@@ -22,21 +22,24 @@
     <!-- Welcome Header -->
    <header class="header">
         <h1 class="logo">Welcome</h1>
-       <nav class="nav-bar">
-           <i class="fa fa-bars" aria-hidden="true"></i>
+       <nav class="nav-bar" id="menu-body">
+           <i class="fa fa-bars" id='menu-btn' aria-hidden="true"></i>
        </nav>
    </header>
 
-   <header class="h-desktop">
-       <ul class="nav-element">
-           <li><a href="">Portfolio</a></li>
-           <li><a href="">About</a></li>
-           <li><a href="">Contact</a></li>
+   <header class="h-desktop" id='menu'>
+        <i class="fa fa-times fa-2x" id='close-btn' aria-hidden="true"></i>
+        <ul class="nav-element">
+           <li><a class="nav-link" href="#work">Portfolio</a></li>
+           <li><a class="nav-link" href="#about">About</a></li>
+           <li><a class="nav-link" href="#contact">Contact</a></li>
        </ul>
        
    </header>
 
-   <!-- Main content 1 -->
+   
+
+   <!-- Main content 1-->
     <section class="main1">
         <div class="wrap-content">
 
@@ -75,7 +78,7 @@
 </div>
 
      <!-- content 2 -->
-    <section class="main2">
+    <section class="main2" id="work">
 
         <div class="title">
             <h2>My Recent Work</h2>
@@ -162,7 +165,7 @@
         
     </section>
     <!-- content 3 -->
-    <section class="main3">
+    <section class="main3" id="about">
         <h2>About me</h2>
         <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you
         see and have a project you need coded,
@@ -204,7 +207,7 @@
     </li>
 </ul>
 
-<footer class="main4-contact">
+<footer class="main4-contact" id="contact">
     
     <div class="main4">
         <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
@@ -232,6 +235,6 @@
     
     </footer>
 <div class="line"></div>
-
+<script src="./script.js"></script>
 </body>
 </html>
