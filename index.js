@@ -2,13 +2,17 @@ const project = [
     {
         image:"./image/pic.jpeg",
         title:"Multi-Post Stories Gain+Glory",
-        language: ['HTML5','HTML5','HTML5',]
+        language: ['HTML5','HTML5','HTML5',],
+        description: 'lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore distinctio aut illum officia unde, quod aliquam eos delectus aspernatur temporibus accusantium, sint quisquam sed quaerat provident tempora reprehenderit explicabo amet.',
+        liveLink: 'https://github.com/41hulk/micro-portfolio',
+        gitLink: 'https://github.com/41hulk/micro-portfolio',
+    
     }
 ]
 
 let projectsDesktop = document.querySelector('.projects-desktop')
 
-for(let i=0;i<=6;i += 1){
+for(let i=0;i<=5;i += 1){
     let card = document.createElement('div');
     card.classList.add('project-container');
 
@@ -31,9 +35,18 @@ for(let i=0;i<=6;i += 1){
 
     let button = document.createElement('button');
     button.setAttribute('type', 'button')
+    button.classList.add('project-button')
     button.innerHTML = 'See project'
     
     desc.append(title, languages, button)
     card.append(img, desc)
     projectsDesktop.appendChild(card)
+}
+
+// MODAL
+const btn=document.querySelector(".project-button");
+const close=document.querySelector("modal-cancel")
+
+function display(){
+    const modal = document.querySelector()
 }
