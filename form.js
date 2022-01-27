@@ -13,5 +13,10 @@ const contactForm = document.forms[0];
 
 contactForm.addEventListener('submit', (event) => {
   const checkEmail = validateEmail(contactForm);
-  event.preventDefault()
+
+  if(!checkEmail) {
+    const errorMsg = document.querySelector('.error-msg');
+    errorMsg.style.display = 'block'
+    event.preventDefault()
+  }
 });

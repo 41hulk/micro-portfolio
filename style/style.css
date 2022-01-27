@@ -514,6 +514,12 @@ body {
     align-self: flex-start;
   }
 
+  .error-msg{
+    color: rgb(206, 18, 18);
+    margin-top: 8px;
+    display: none;
+  }
+
   .bg-image {
     display: flex;
   }
