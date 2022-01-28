@@ -232,7 +232,8 @@ body {
   flex-direction: column;
   margin-bottom: 40px;
   margin-top: 40px;
-  background: url("/image/mei.png") bottom left no-repeat,
+  background:
+    url("/image/mei.png") bottom left no-repeat,
     url("/image/duck.png") top right no-repeat;
 }
 
@@ -559,7 +560,8 @@ body {
   }
 
   .main3 {
-    background: url("/image/boat-desktop.png") bottom left no-repeat,
+    background:
+      url("/image/boat-desktop.png") bottom left no-repeat,
       url("/image/duck-desk.png") top right no-repeat;
   }
 
@@ -706,20 +708,21 @@ body {
     order: -1;
     flex: 1 20%;
   }
+
   .modal-btn {
     font-size: 12px;
   }
 
   #modal-cancel {
     position: relative;
-    margin: 0.5em 0px;
+    margin: 0.5em 0;
     padding: 6px 10px;
     float: right;
     width: fit-content;
     background-color: rgb(193, 199, 208);
-    right: 0px;
+    right: 0;
     color: #ebecf0;
-    top: 0px;
+    top: 0;
     border-radius: 8px;
   }
 
