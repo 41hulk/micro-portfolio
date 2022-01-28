@@ -11,8 +11,12 @@ const saveData = () => {
   };
   localStorage.setItem('sessionData', JSON.stringify(formData));
 };
-
 userName.addEventListener('input', saveData);
 userEmail.addEventListener('input', saveData);
 userMesssage.addEventListener('input', saveData);
-
+window.addEventListener('load', () => {
+  const serializeFormData = JSON.parse(localStorage.getItem('sessionData'));
+  userName.value = serializeFormData.name;
+  userEmail.value = serializeFormData.email;
+  userMesssage.value = serializeFormData.message;
+});
