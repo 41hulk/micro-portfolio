@@ -232,8 +232,7 @@ body {
   flex-direction: column;
   margin-bottom: 40px;
   margin-top: 40px;
-  background:
-    url("/image/mei.png") bottom left no-repeat,
+  background: url("/image/mei.png") bottom left no-repeat,
     url("/image/duck.png") top right no-repeat;
 }
 
@@ -402,7 +401,8 @@ body {
 }
 
 #modal-cancel {
-  position: absolute;
+  color: #ebecf0;
+  position: fixed;
   right: 2.5em;
   top: 2.5em;
 }
@@ -410,7 +410,7 @@ body {
 #screenshot {
   width: 100%;
   height: auto;
-  max-height: 30em;
+  max-height: 40em;
   border-radius: 8px;
 }
 
@@ -441,7 +441,7 @@ body {
   margin: 20px;
   color: #fff;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 20px;
   text-align: center;
   background: #36b37f;
   border: #36b37f;
@@ -559,8 +559,7 @@ body {
   }
 
   .main3 {
-    background:
-      url("/image/boat-desktop.png") bottom left no-repeat,
+    background: url("/image/boat-desktop.png") bottom left no-repeat,
       url("/image/duck-desk.png") top right no-repeat;
   }
 
@@ -707,22 +706,21 @@ body {
     order: -1;
     flex: 1 20%;
   }
+  .modal-btn {
+    font-size: 12px;
+  }
 
   #modal-cancel {
     position: relative;
-    margin: 0.5em 0;
+    margin: 0.5em 0px;
+    padding: 6px 10px;
     float: right;
     width: fit-content;
-    background-color: #c1c7d0;
-    right: 0;
-    top: 0;
+    background-color: rgb(193, 199, 208);
+    right: 0px;
+    color: #ebecf0;
+    top: 0px;
     border-radius: 8px;
-  }
-
-  #modal-cancel > img {
-    padding: 0.25em;
-    top: 50%;
-    left: 50%;
   }
 
   #modal-list {

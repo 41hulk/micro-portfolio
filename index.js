@@ -63,7 +63,7 @@ for (let i = 0; i <= 5; i += 1) {
                 
                             <div id="modal-buttons">
                                 <a id="live-link" href="#" target="_blank" class="modal-btn button project-button primary-font">See
-                                    Live <i class="fa fa-github " title="medium" aria-hidden="true"></i></a>
+                                    Live <img src="./image/live.svg" alt=""></a>
                                 <a id="git-link" href="#" target="_blank" class="modal-btn button project-button primary-font">See
                                     Source <i class="fa fa-github" title="medium" aria-hidden="true"></i></a>
                             </div>
