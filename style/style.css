@@ -232,8 +232,7 @@ body {
   flex-direction: column;
   margin-bottom: 40px;
   margin-top: 40px;
-  background:
-    url("/image/mei.png") bottom left no-repeat,
+  background: url("/image/mei.png") bottom left no-repeat,
     url("/image/duck.png") top right no-repeat;
 }
 
@@ -429,26 +428,31 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #344563;
+  margin: 0px 5px;
 }
 
 #modal-buttons {
   display: flex;
   width: 100%;
   justify-content: center;
+  gap: 30px;
 }
 
 .modal-btn {
-  padding: 12px;
-  margin: 20px;
-  color: #fff;
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 40px;
   text-decoration: none;
-  font-size: 20px;
-  text-align: center;
+
+  height: 24px;
+  font-size: 17px;
+  color: #fff;
+  left: 0px;
+  top: 4px;
   background: #36b37f;
-  border: #36b37f;
   border-radius: 4px;
-  line-height: 16px;
-  font-weight: 400;
 }
 
 @media only screen and (min-width: 992px) {
@@ -560,8 +564,7 @@ body {
   }
 
   .main3 {
-    background:
-      url("/image/boat-desktop.png") bottom left no-repeat,
+    background: url("/image/boat-desktop.png") bottom left no-repeat,
       url("/image/duck-desk.png") top right no-repeat;
   }
 
@@ -697,20 +700,24 @@ body {
     flex-wrap: wrap;
     flex: 1 1 auto;
   }
-
+  #screenshot {
+    margin-bottom: 29px;
+  }
   #modal-title {
     order: -2;
     flex: 1 60%;
-    margin-top: 0;
+    margin-bottom: 10px;
   }
 
   #modal-buttons {
     order: -1;
     flex: 1 20%;
+    margin-left: 7em;
   }
 
   .modal-btn {
-    font-size: 12px;
+    font-size: 10px;
+    padding: 10px;
   }
 
   #modal-cancel {

@@ -62,9 +62,9 @@ for (let i = 0; i <= 5; i += 1) {
                                 an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
                 
                             <div id="modal-buttons">
-                                <a id="live-link" href="#" target="_blank" class="modal-btn button project-button primary-font">See
+                                <a id="live-link" href="#" target="_blank" class="modal-btn">See
                                     Live <img src="./image/live.svg" alt=""></a>
-                                <a id="git-link" href="#" target="_blank" class="modal-btn button project-button primary-font">See
+                                <a id="git-link" href="#" target="_blank" class="modal-btn">See
                                     Source <i class="fa fa-github" title="medium" aria-hidden="true"></i></a>
                             </div>
                         </div>
