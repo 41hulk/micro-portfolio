@@ -29,7 +29,7 @@ const cardData = [
   },
   {
     title: "Leaderboard",
-    image: "./image/space.png",
+    image: "./image/lead.png",
     tags: ["HTML", "CSS", "JS"],
     description: " A front-end web application that displays scores submitted by different players. It also allows you to submit your score.",
     liveSite: "https://leadb.netlify.app/",
