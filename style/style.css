@@ -478,6 +478,20 @@ body {
     padding: 16px;
   }
 
+    .content {
+      padding: 16px;
+    }
+  
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+  
+    .sticky+.content {
+      padding-top: 60px;
+    }
+
   .nav-element {
     display: flex;
     flex-direction: row;

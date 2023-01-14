@@ -17,7 +17,6 @@ sectionLink.forEach((item) => {
   item.addEventListener('click', close);
 });
 
-
 const cardData = [
   {
     title: 'Space Travelers',
@@ -30,9 +29,9 @@ const cardData = [
   {
     title: 'Bookstore',
     image: './image/bookstore.png',
-    tags: ["React", "Redux", "JS"],
+    tags: ['React', 'Redux', 'JS'],
     description: 'A Front-end application that allowsbook lovers. You can manage your book list by adding and removing books.',
-    
+
     liveSite: 'https://booooookstore.netlify.app/',
     repository: 'https://github.com/41hulk/Bookstore',
   },
@@ -110,5 +109,21 @@ function generateCards() {
   }
 }
 
-
 generateCards();
+
+// eslint-disable-next-line func-names, no-use-before-define
+window.onscroll = function () { myFunction(); };
+
+// Get the navbar
+const navbar = document.getElementById('menu');
+
+// Get the offset position of the navbar
+const sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add('sticky');
+  } else {
+    navbar.classList.remove('sticky');
+  }
+}
