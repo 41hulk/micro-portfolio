@@ -31,7 +31,7 @@ const cardData = [
     title: 'Bookstore',
     image: './image/bookstore.png',
     tags: ["React", "Redux", "JS"],
-    description: 'A Front-end application that allowsbook lovers. You can manange your book list by adding and removing books.',
+    description: 'A Front-end application that allowsbook lovers. You can manage your book list by adding and removing books.',
     
     liveSite: 'https://booooookstore.netlify.app/',
     repository: 'https://github.com/41hulk/Bookstore',
